@@ -1,5 +1,14 @@
-//Exercice II - 2
+//Exercice II - 3
 
-function cleRelachee(evt){ 
-  alert(evt.key) 
-}
+var b=0; 
+function fifo() { 
+     if(b==0){ 
+      document.getElementById("coco19").width = "300"; 
+      b=1; 
+      } 
+     else 
+      { 
+     document.getElementById("coco19").width = "100"; 
+      b=0; 
+     } 
+    } 
